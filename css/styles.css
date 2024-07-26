@@ -165,6 +165,11 @@ body {
   color: var(--salte-color);
 }
 
+.contact-mail{
+  padding-left: 280px;
+  padding-right: 40px;
+}
+
 .second-section {
   padding: 120px 0;
 }
@@ -178,8 +183,21 @@ body {
   max-width: 496px;
 }
 .first-section {
+  background-color: #2E2F42B2;
+  ;
+  background-image: url(../images/first-section-background-image.png);
   background-color: var(--primary-navy-blue);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
+}
+
+.first-section-container{
+  text-align: center;
+  padding-left: 472px;
+  padding-right: 472px;
+  
 }
 
 .button {
@@ -291,6 +309,16 @@ body {
   color: #434455;
   background-color: var(--primary-white);
   text-align: center;
+}
+
+.social-media-icons-link{
+padding: 12px;
+border-radius: 100%;
+background-color: white;
+}
+
+.social-media-icons{
+
 }
 
 .portfolio-section {
