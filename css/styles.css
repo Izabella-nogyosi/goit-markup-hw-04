@@ -119,7 +119,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
-  position: relative;
 }
 
 .container {
@@ -165,6 +164,7 @@ body {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+  position: relative;
 }
 
 .contact-ditails {
