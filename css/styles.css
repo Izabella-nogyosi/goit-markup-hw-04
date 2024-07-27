@@ -201,13 +201,12 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/first-section-background-image.png);
-    max-width: 1440px;
+    url(../images/first-section-bg-image.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 188px 0;
-
 }
 
 .first-section-container {
@@ -229,7 +228,8 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .visually-hidden {
@@ -279,6 +279,8 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .image-list {
