@@ -263,6 +263,17 @@ body {
   flex-basis: calc((100% - 3 * 24px));
 }
 
+.second-section-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
 .feature-paragraph {
   font-size: 16px;
   font-weight: 400;
