@@ -75,6 +75,7 @@ body {
   line-height: 1.17;
   margin-right: 76px;
   padding: 24px 0;
+  position: relative;
 }
 
 .address-list {
@@ -94,6 +95,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   gap: 40px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -165,7 +168,7 @@ body {
   color: var(--salte-color);
 }
 
-.contact-mail{
+.contact-mail {
   padding-left: 280px;
   padding-right: 40px;
 }
@@ -183,21 +186,22 @@ body {
   max-width: 496px;
 }
 .first-section {
-  background-color: #2E2F42B2;
-  ;
-  background-image: url(../images/first-section-background-image.png);
-  background-color: var(--primary-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/first-section-background-image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
-.first-section-container{
+.first-section-container {
   text-align: center;
   padding-left: 472px;
   padding-right: 472px;
-  
 }
 
 .button {
@@ -213,6 +217,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -311,14 +316,18 @@ body {
   text-align: center;
 }
 
-.social-media-icons-link{
-padding: 12px;
-border-radius: 100%;
-background-color: white;
+.social-media-icons-link {
+  padding: 12px;
+  border-radius: 100%;
+  background-color: white;
+  display: inline-flex;
+  margin-top: 8px;
 }
 
-.social-media-icons{
-
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .portfolio-section {
