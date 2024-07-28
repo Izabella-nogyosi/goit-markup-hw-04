@@ -472,6 +472,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-social-media-icons {
@@ -483,10 +484,11 @@ body {
   margin-right: 120px;
 }
 
-.footer-icons {
+.footer-svg-list {
   width: 40px;
   height: 40px;
 }
 
-.footer-icon-link {
+.footer-svg {
+  fill: #f4f4fd;
 }
