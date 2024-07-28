@@ -347,25 +347,22 @@ body {
   text-align: center;
 }
 
-.social-media-icons-link {
+.our-team-social-media-icons-link {
   padding: 12px;
   border-radius: 100%;
   background-color: white;
-  display: inline-flex;
+  display: flex;
   margin-top: 8px;
+ justify-content: center;
+  gap: 24px;
 }
 
-.social-media-icons {
+.social-media-list{
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.social-media-icons-link {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
 
 .first-social-media-link {
   width: 40px;
