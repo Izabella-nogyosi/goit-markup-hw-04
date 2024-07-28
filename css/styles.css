@@ -91,7 +91,6 @@ body {
   gap: 40px;
   padding: 24px 0;
   color: #2e2f42;
-  
 }
 
 .studio {
@@ -172,6 +171,7 @@ body {
 
 .contact-ditails {
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
