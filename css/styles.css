@@ -482,3 +482,7 @@ body {
   display: flex;
   gap: 16px;
 }
+
+.footer-logo-and-text{
+  margin-right: 120px;
+}
