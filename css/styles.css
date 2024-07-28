@@ -137,9 +137,11 @@ body {
   position: relative;
   color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
+.header-container {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-item:hover,
 .button:hover,
 .contact:hover,
@@ -422,7 +424,6 @@ body {
   column-gap: 24px;
   row-gap: 48px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .portfolio-list-item:hover {
