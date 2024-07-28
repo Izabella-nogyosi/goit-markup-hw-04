@@ -179,7 +179,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--salte-color);
   transition-duration: 250ms;
-  transition-timing-function: ier(0.4, 0, 0.2, 1);
+  transition-timing-function: (0.4, 0, 0.2, 1);
  
 }
 
