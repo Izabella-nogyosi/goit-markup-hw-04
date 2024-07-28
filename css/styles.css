@@ -357,6 +357,14 @@ body {
   gap: 24px;
 }
 
+.our-team-social-media-icons-link:hover{
+  background-color: #404bbf;
+}
+
+.our-team-social-media-icons-link:focus{
+  background-color: #404bbf;
+}
+
 .social-media-list{
   display: flex;
   justify-content: center;
@@ -377,6 +385,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.our-team-svg{
+  fill: #f4f4fd;
 }
 
 .portfolio-section {
