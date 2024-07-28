@@ -487,6 +487,13 @@ body {
   justify-content: center;
 }
 
+.footer-social-media-icons-link:hover{
+  background-color: #31d0aa;
+}
+.footer-social-media-icons-link:focus{
+  background-color: #31d0aa;
+}
+
 .footer-social-media-icons {
   display: flex;
   gap: 16px;
