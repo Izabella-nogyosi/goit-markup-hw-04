@@ -353,24 +353,23 @@ body {
   background-color: white;
   display: flex;
   margin-top: 8px;
- justify-content: center;
-  gap: 24px;
-}
-
-.our-team-social-media-icons-link:hover{
-  background-color: #404bbf;
-}
-
-.our-team-social-media-icons-link:focus{
-  background-color: #404bbf;
-}
-
-.social-media-list{
-  display: flex;
   justify-content: center;
   gap: 24px;
 }
 
+.our-team-social-media-icons-link:hover {
+  background-color: #404bbf;
+}
+
+.our-team-social-media-icons-link:focus {
+  background-color: #404bbf;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
 .social-media-link {
   width: 40px;
@@ -387,8 +386,7 @@ body {
   justify-content: center;
 }
 
-
-.our-team-svg{
+.our-team-svg {
   fill: #f4f4fd;
 }
 
@@ -421,6 +419,8 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-item {
@@ -487,10 +487,10 @@ body {
   justify-content: center;
 }
 
-.footer-social-media-icons-link:hover{
+.footer-social-media-icons-link:hover {
   background-color: #31d0aa;
 }
-.footer-social-media-icons-link:focus{
+.footer-social-media-icons-link:focus {
   background-color: #31d0aa;
 }
 
