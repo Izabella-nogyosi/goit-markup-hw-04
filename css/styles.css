@@ -419,7 +419,8 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .portfolio-list-item:hover {
