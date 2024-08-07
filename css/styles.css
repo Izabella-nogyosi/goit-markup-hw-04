@@ -120,10 +120,14 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-list-item,
@@ -168,6 +172,7 @@ body {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+  padding-inline-start: 0;
 }
 
 .contact-ditails {
@@ -180,14 +185,9 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-
+  padding-right: 40px;
   color: var(--salte-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-mail {
-  padding-left: 280px;
-  padding-right: 40px;
 }
 
 .second-section {
@@ -209,10 +209,10 @@ body {
     ),
     url(../images/first-section-bg-image.jpg);
   max-width: 1440px;
+  padding: 188px 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 188px 0;
 }
 
 .first-section-container {
@@ -235,6 +235,8 @@ body {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 16px 32px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -350,11 +352,15 @@ body {
 
 .our-team-social-media-icons-link {
   padding: 12px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: white;
   display: flex;
-  margin-top: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  align-items: center;
   justify-content: center;
+  margin-top: 8px;
   gap: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -378,18 +384,10 @@ body {
   height: 40px;
 }
 
-.our-team-social-media-icons-link {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .our-team-svg {
   fill: #f4f4fd;
+  width: 40;
+  height: 40;
 }
 
 .portfolio-section {
@@ -472,8 +470,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: #404bbf;
-  transform: translateY(100%);
   left: 0;
+  transform: translateY(100%);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -515,6 +513,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer-social-media-text {
@@ -530,6 +529,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
+  fill: #f4f4fd;
   border-radius: 50%;
   display: flex;
   align-items: center;
