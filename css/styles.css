@@ -463,6 +463,9 @@ body {
   position: relative;
   overflow: hidden;
 }
+.portfolio-list-item:hover{
+  transform: translateY(0%);
+}
 
 .portfolio-list-item .overlay {
   position: absolute;
